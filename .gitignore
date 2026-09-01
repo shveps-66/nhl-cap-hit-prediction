@@ -1,0 +1,61 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# CatBoost local training logs
+catboost_info/
+
+# Local notebook backups (keep on disk, do not push)
+*Backup*.ipynb
+*BACKUP*.ipynb
+*backup*.ipynb
+
+# Internal handoff / briefing notes (not for the public repo)
+SUMMARY.md
+PRESENTATION_BRIEF.md
+PRESENTATION_LINKEDIN_HANDOFF.md
+EDA_takeaways_raw_bullets.md
+METRICS_CHECKLIST.md
+EDA_story.pdf
+GITHUB_CLEANUP_INVENTORY.md
+LINKEDIN_FEEDBACK_LOG.md
+presentation-summary.md
+
+# Draft / parallel model notebooks (public path = EDA + NHL_CapHit_Model)
+CatBoost model ablation.ipynb
+CatBoost model ablation2.ipynb
+CatBoost model.ipynb
+CatBoost model Final.ipynb
+CatBoost modelGS.ipynb
+
+# Local data pipeline (not in the public repo)
+scripts/
+Data/
+presentation/
+
+# Presentation sources stay local
+presentation/*.pptx
+presentation/*BACKUP*
+presentation/*Gold Star*
+presentation/figures/
+
+# Temp / scratch / local build helpers
+*.tmp
+*_snip.*
+_notes*.txt
+_md_audit.txt
+_audit_*.csv
+_*.py
+_*.txt
+_gs_*.txt
+_public_*.txt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
